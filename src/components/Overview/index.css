@@ -1,0 +1,67 @@
+.card {
+  display: flex;
+  justify-content: space-between;
+  background-color: #0f0824;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.title {
+  color: aliceblue;
+  font-family: 'Roboto';
+  font-size: 28px;
+  padding-left: 10px;
+}
+
+.text {
+  color: aliceblue;
+  font-family: 'Roboto';
+  font-size: 15px;
+  width: 100%;
+  padding: 10px;
+}
+
+.title-card {
+  display: flex;
+}
+
+.poster-image {
+  height: 250px;
+  width: 200px;
+  margin: 10px;
+}
+
+.backdrop-image {
+  height: 450px;
+  width: 550px;
+}
+
+@media only screen and (max-width: 767px) {
+  /* CSS for mobile devices */
+
+  .poster-image {
+    height: 280px;
+    width: 100%;
+    margin: 10px;
+  }
+
+  .backdrop-image {
+    height: 150px;
+    width: 250px;
+    display: none;
+  }
+
+  .title-card {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1023px) {
+  /* CSS for tablet devices */
+
+  .backdrop-image {
+    height: 450px;
+    width: 250px;
+  }
+}

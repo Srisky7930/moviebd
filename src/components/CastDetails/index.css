@@ -1,0 +1,40 @@
+.cast-container {
+  background-color: #363536;
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.crew {
+  margin-top: 20px;
+}
+
+.profile-image {
+  height: 250px;
+  width: 150px;
+}
+
+.name {
+  color: aliceblue;
+  font-size: 10px;
+  width: 100%;
+}
+
+.character {
+  color: aliceblue;
+  font-family: 'Roboto';
+  font-size: 15px;
+  width: 140px;
+}
+
+.overview-card {
+  width: 90vw;
+}
